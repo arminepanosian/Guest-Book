@@ -1,0 +1,154 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.main{
+    width: 100%;
+    background-color: white;
+    display: flex;
+    justify-content: center;
+}
+
+.central{
+    width: 800px;
+    height: 480px;
+    background-color: rgba(247, 248, 249, 1);
+}
+
+.bgimg{
+    width: 100%;
+    height: 170px;
+    background-image: url(./img/img.png);
+}
+
+.form{
+    width: 100%;
+    height: 300px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.form input{
+    width: 780px;
+    height: 48px;
+    line-height: 48px;
+    font-family: "Noto Sans Kr";
+    font-size: 15px;
+    color: #333;
+    border: 1px solid #ddd;
+    border-radius: 6px;
+    box-sizing: border-box;
+    text-indent: 16px;
+    outline: none;
+    font-size: 17px;
+}
+
+.btn{
+    display: block;
+    width: 780px;
+    height: 50px;
+    line-height: 50px;
+    font-size: 15px;
+    border-radius: 6px;
+
+    text-align: center;
+    background: #333333;
+    color: #fff;
+    font-family: "Noto Sans KR", sans-serif;
+    letter-spacing: -0.38px;
+    font-weight: bold;
+    border: none;
+    cursor: pointer;
+}
+
+.reviewform{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    background-color: rgba(247, 248, 249, 1);
+    padding-top: 30px;
+}
+
+.review{
+    width: 780px;
+    height: 75px;    
+    background-color: white;
+    border-radius: 5px;
+    overflow: hidden;
+    margin-top: 10px;
+}
+
+.first{
+    width: 100%;
+    height: 27px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.name{
+    width: 100px;
+    height: 27px;
+    padding: 7px;
+    font-weight: bold;
+}
+
+.data{
+    width: 210px;
+    height: 27px;
+    padding: 7px;
+    color:#ccc;
+}
+
+.text{
+    width: 100%;
+    height:48px;
+    padding-left: 7px;
+    padding-top: 2px;
+}
+
+.buttons2{
+    width: 100%;
+    height: 100px;
+    background-color: rgba(247, 248, 249, 1);
+    padding-top: 20px;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.btns{
+    width: 40%;
+    height: 48px;
+    border-radius: 5px;
+    text-align: center;
+    padding-top: 15px;
+    cursor: pointer;
+    font-weight: bold;
+    border: 1px solid #ddd;
+
+}
+
+.as{
+    width: 100%;
+    display: none;
+}
+
+@media(max-width:800px){
+    .form input{
+        width: 95%;
+    }
+    .btn{
+        width: 95%;
+    }
+    .review{
+        width: 95%;
+    }
+    .btns{
+        width: 95%;
+    }
+}
